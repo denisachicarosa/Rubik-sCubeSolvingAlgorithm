@@ -36,29 +36,29 @@
  Pentru rezolvarea acestuia trebuie sa respectam un set de reguli.
  
  1. Pozitionarea cubului Rubik:
-  a) Fata cubului care are patratelul din mijloc rosu, va fi indreptata spre noi.
+  - Fata cubului care are patratelul din mijloc rosu, va fi indreptata spre noi.
   
-  b) Fata cubului care are patratelul din mijloc galbe, va fi tinuta in sus.
+  - Fata cubului care are patratelul din mijloc galbe, va fi tinuta in sus.
   
-  c) Programul ofera o rezolvare corecta pentru cuburile care au in stanga laturii rosii, latura verde, iar in dreapta laturii rosii, va fi latura albastra.
+  - Programul ofera o rezolvare corecta pentru cuburile care au in stanga laturii rosii, latura verde, iar in dreapta laturii rosii, va fi latura albastra.
  
  2. Codificarea mutarilor:
   
-  a) Literele scrise cu majuscule reprezinta o miscare a fetei respective in sensul acelor de ceasornic.
+  - Literele scrise cu majuscule reprezinta o miscare a fetei respective in sensul acelor de ceasornic.
   
-  b) Literele mici reprezinta o miscare a fetei respective in sensul invers acelor de ceasornic.
+  - Literele mici reprezinta o miscare a fetei respective in sensul invers acelor de ceasornic.
   
-  c) R = right, (latura albastra), iar r = right reverse 
+  - R = right, (latura albastra), iar r = right reverse 
   
-  d) L = left, (latura verde), iar l = left reverse
+  - L = left, (latura verde), iar l = left reverse
   
-  e) U = up, (latura galbena), iar u = up reverse
+  - U = up, (latura galbena), iar u = up reverse
   
-  f) D = down, (latura alba), iar d = down reverse
+  - D = down, (latura alba), iar d = down reverse
   
-  g) F = front, (latura rosie), iar f = front reverse
+  - F = front, (latura rosie), iar f = front reverse
   
-  h) B = back, (latura portocalie), iar b = back reverse
+  - B = back, (latura portocalie), iar b = back reverse
  
  Imediat dupa introducerea configuratiei cubului, apare prima mutare. Dupa ce am executat mutarea respectiva respectand regulile de mai sus, vom apasa butonul si dupa ce se aprinde ledul alaturat, stim ca am trecut la mutarea urmatoare.
 
