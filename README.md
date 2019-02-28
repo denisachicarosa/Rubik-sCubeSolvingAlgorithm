@@ -2,7 +2,7 @@
 
 ### Acest proiect invata utilizatorul sa rezolve un cub Rubik, fara sa foloseasca un caz general, adaptandu-se pentru configuratia cubului amestecat.
 
-## Componente: 
+## *Componente*: 
 - LCD 1602 Module
 - Button
 - LED
@@ -11,7 +11,7 @@
 - Arduino Uno R3 sau Mega
 - Bluetooth Module
 
-## Inceput:
+## *Inceput:*
  Programul primeste ca input configuratia cubului amestecat prin intermediul modulului Bluetooth. 
  Eu am folosit Bluetooth Terminal, conectat la dispozitivul HC-06 (modulul conectat la arduino).
  Pentru o usoara comunicare si interpretare intre dispozitive am atribuit fiecarei culori un cod, dupa cum urmeaza:
@@ -32,18 +32,18 @@
  La final, dupa introducerea tuturor laturilor, se afiseaza "Cub filled" si nu mai sunt salvate urmatoarele caractere trimise.
  Un exemplu de introducere a datelor gasiti [aici]().
  
-## Rezolvarea cubului:
+## *Rezolvarea cubului:*
  In continuare, vom primi pe LCD cate un pas pe care trebuie sa il executam pentru ca in final sa reusim sa rezolvvam cubul Rubik.
  Pentru rezolvarea acestuia trebuie sa respectam un set de reguli.
  
- 1. Pozitionarea cubului Rubik:
+ 1. *Pozitionarea cubului Rubik:*
   - Fata cubului care are patratelul din mijloc rosu, va fi indreptata spre noi.
   
   - Fata cubului care are patratelul din mijloc galben, va fi tinuta in sus.
   
   - Programul ofera o rezolvare corecta pentru cuburile care au in stanga laturii rosii, latura verde, iar in dreapta laturii rosii, latura albastra.
  
- 2. Codificarea mutarilor:
+ 2. *Codificarea mutarilor:*
   
   - Literele scrise cu majuscule reprezinta o miscare a fetei respective in sensul acelor de ceasornic.
   
