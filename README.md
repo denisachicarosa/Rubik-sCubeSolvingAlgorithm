@@ -38,9 +38,9 @@
  1. Pozitionarea cubului Rubik:
   - Fata cubului care are patratelul din mijloc rosu, va fi indreptata spre noi.
   
-  - Fata cubului care are patratelul din mijloc galbe, va fi tinuta in sus.
+  - Fata cubului care are patratelul din mijloc galben, va fi tinuta in sus.
   
-  - Programul ofera o rezolvare corecta pentru cuburile care au in stanga laturii rosii, latura verde, iar in dreapta laturii rosii, va fi latura albastra.
+  - Programul ofera o rezolvare corecta pentru cuburile care au in stanga laturii rosii, latura verde, iar in dreapta laturii rosii, latura albastra.
  
  2. Codificarea mutarilor:
   
