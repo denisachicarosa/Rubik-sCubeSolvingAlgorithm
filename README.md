@@ -15,6 +15,7 @@
  Programul primeste ca input configuratia cubului amestecat prin intermediul modulului Bluetooth. 
  Eu am folosit Bluetooth Terminal, conectat la dispozitivul HC-06 (modulul conectat la arduino).
  Pentru o usoara comunicare si interpretare intre dispozitive am atribuit fiecarei culori un cod, dupa cum urmeaza:
+ 
   (W) alb        - 0
   
   (Y) galben     - 1
