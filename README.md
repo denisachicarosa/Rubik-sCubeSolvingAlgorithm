@@ -33,7 +33,7 @@
  Un exemplu de introducere a datelor gasiti [aici]().
  
 ## *Rezolvarea cubului:*
- In continuare, vom primi pe LCD cate un pas pe care trebuie sa il executam pentru ca in final sa reusim sa rezolvvam cubul Rubik.
+ In continuare, vom primi pe LCD cate un pas pe care trebuie sa il executam pentru ca in final sa reusim sa rezolvam cubul Rubik.
  Pentru rezolvarea acestuia trebuie sa respectam un set de reguli.
  
  1. *Pozitionarea cubului Rubik:*
