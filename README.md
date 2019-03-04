@@ -1,6 +1,6 @@
 # **Rubik'sCubeSolvingAlgorithm**
 
-### Acest proiect invata utilizatorul sa rezolve un cub Rubik, fara sa foloseasca un caz general, adaptandu-se pentru configuratia cubului amestecat.
+### Acest proiect invata utilizatorul sa rezolve un cub Rubik, fara sa foloseasca un caz particular, adaptandu-se pentru configuratia cubului amestecat.
 
 ## *Componente*: 
 - LCD 1602 Module
