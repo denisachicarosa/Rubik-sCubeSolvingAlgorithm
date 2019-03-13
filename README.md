@@ -30,7 +30,6 @@
  
  La fiecare latura a cubului introdusa complet, primim inapoi latura afisata folosind initialele culorilor in engleza, pentru verificare.
  La final, dupa introducerea tuturor laturilor, se afiseaza "Cub filled" si nu mai sunt salvate urmatoarele caractere trimise.
- Un exemplu de introducere a datelor gasiti [aici]().
  
 ## *Rezolvarea cubului:*
  In continuare, vom primi pe LCD cate un pas pe care trebuie sa il executam pentru ca in final sa reusim sa rezolvam cubul Rubik.
@@ -64,7 +63,6 @@
  Imediat dupa introducerea configuratiei cubului, apare prima mutare. Dupa ce am executat mutarea respectiva respectand regulile de mai sus, vom apasa butonul si dupa ce se aprinde ledul alaturat, stim ca am trecut la mutarea urmatoare.
 
   Cand ajungem la final, cubul va fi rezolvat si ledul va ramane aprins.
-  Gasiti [aici] un demo al rezolvarii.
   
   
   
