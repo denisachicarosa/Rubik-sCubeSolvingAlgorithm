@@ -1,6 +1,6 @@
 # **Rubik'sCubeSolvingAlgorithm**
 
-### Acest proiect invata utilizatorul sa rezolve un cub Rubik, fara sa foloseasca un caz particular, adaptandu-se pentru configuratia cubului amestecat.
+### This project teaches the user to solve a Rubik cube, without using a particular case, adapting to the mix cube configuration.
 
 ## *Componente*: 
 - LCD 1602 Module
@@ -8,61 +8,61 @@
 - LED
 - Wires
 - Breadboard
-- Arduino Uno R3 sau Mega
+- Arduino Uno R3 or Mega
 - Bluetooth Module
 
-## *Inceput:*
- Programul primeste ca input configuratia cubului amestecat prin intermediul modulului Bluetooth. 
- Eu am folosit Bluetooth Terminal, conectat la dispozitivul HC-06 (modulul conectat la arduino).
- Pentru o usoara comunicare si interpretare intre dispozitive am atribuit fiecarei culori un cod, dupa cum urmeaza:
+## *Beginning:*
+The program receives as input the configuration of the mixed cube via the Bluetooth module.
+  I used Bluetooth Terminal, connected to the HC-06 device (the module connected to the arduino).
+  For easy communication and interpretation between devices I assigned each color a code, as follows:
  
-  (W) alb        - 0
+  (W) white        - 0
   
-  (Y) galben     - 1
+  (Y) yellow     - 1
   
-  (R) rosu       - 2
+  (R) red       - 2
   
-  (G) verde      - 3
+  (G) green      - 3
   
-  (B) albastru   - 4
+  (B) blue   - 4
   
-  (O) portocaliu - 5
+  (O) orange - 5
  
- La fiecare latura a cubului introdusa complet, primim inapoi latura afisata folosind initialele culorilor in engleza, pentru verificare.
- La final, dupa introducerea tuturor laturilor, se afiseaza "Cub filled" si nu mai sunt salvate urmatoarele caractere trimise.
+ At each side of the cube completely inserted, we receive back the displayed side using the color initials in English, for verification.
+ Finally, after entering all sides, "Cub filled" is displayed and the following characters are no longer saved.
  
-## *Rezolvarea cubului:*
- In continuare, vom primi pe LCD cate un pas pe care trebuie sa il executam pentru ca in final sa reusim sa rezolvam cubul Rubik.
- Pentru rezolvarea acestuia trebuie sa respectam un set de reguli.
+## *Solving the cube:*
+ Next, we will receive on the LCD each step that we must execute so that in the end we can solve the Rubik cube.
+ In order to solve it, we must follow a set of rules.
  
- 1. *Pozitionarea cubului Rubik:*
-  - Fata cubului care are patratelul din mijloc rosu, va fi indreptata spre noi.
+ 1. *Positioning the Rubik's cube:*
+  - The face of the cube that has the red square, will be pointed at us.
   
-  - Fata cubului care are patratelul din mijloc galben, va fi tinuta in sus.
+  -The face of the cube that has the yellow middle square will be held up.
   
-  - Programul ofera o rezolvare corecta pentru cuburile care au in stanga laturii rosii, latura verde, iar in dreapta laturii rosii, latura albastra.
+  - The program offers a correct solution for the cubes that have to the left of the red side, the green side, and to the right of the red side, the blue side.
  
- 2. *Codificarea mutarilor:*
+ 2. *Moves codes:*
   
-  - Literele scrise cu majuscule reprezinta o miscare a fetei respective in sensul acelor de ceasornic.
+  - The capital letters are a movement of the respective layer in the clockwise direction..
   
-  - Literele mici reprezinta o miscare a fetei respective in sensul invers acelor de ceasornic.
+  - The small letters represent a movement of the respective layer in the opposite direction to the clockwise ones.
   
-  - R = right, (latura albastra), iar r = right reverse 
+  - R = right, (the blue side) and r = right reverse 
   
-  - L = left, (latura verde), iar l = left reverse
+  - L = left, (the green side) and l = left reverse
   
-  - U = up, (latura galbena), iar u = up reverse
+  - U = up, (the yellow side) and u = up reverse
   
-  - D = down, (latura alba), iar d = down reverse
+  - D = down, (the white side), and d = down reverse
   
-  - F = front, (latura rosie), iar f = front reverse
+  - F = front, (the red side), and f = front reverse
   
-  - B = back, (latura portocalie), iar b = back reverse
+  - B = back, (the orange side) and b = back reverse
  
- Imediat dupa introducerea configuratiei cubului, apare prima mutare. Dupa ce am executat mutarea respectiva respectand regulile de mai sus, vom apasa butonul si dupa ce se aprinde ledul alaturat, stim ca am trecut la mutarea urmatoare.
+Immediately after entering the cube configuration, the first move appears. After we have performed the respective move in accordance with the above rules, we will press the button and after the adjacent LED lights up, we know that we have moved to the next move.
 
-  Cand ajungem la final, cubul va fi rezolvat si ledul va ramane aprins.
+When we reach the end, the cube will be solved and the LED will remain lit.
   
   
   
